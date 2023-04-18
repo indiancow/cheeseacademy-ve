@@ -1,0 +1,311 @@
+/* ここから下に記載していく */
+/* ここは共通系 */
+.en-title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+.ja-title{
+    font-size: 18px;
+    text-align: center;
+}
+.yellow{
+    color: #ffd61a;
+}
+.all-p{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    /* padding: 30px; */
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+}
+/*ここから下は上部から順に書いていく  */
+/* ヘッダー */
+.header_logo img{
+    width: 200px;
+    height: 200px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    
+}
+.header_nav{
+    width: 50%;
+    padding: 50px 25px 50px 25px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+/* トップページ */
+    .toppage{
+        position: relative;
+    }
+    .toppage_image{
+        background-position: center; 
+        background-size: cover;
+        width: 100%;
+        /* position: absolute;これがあるとなんでだめなの？ */
+        padding-bottom: 30px;
+    }
+    .toppage_image img{
+        width: 100px;
+    }
+    .toppage_image img{
+        width: 100%;
+    }
+    .toppage_text{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .toppage_title{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .toppage_subtitle{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+/* about */
+
+.about_image{
+    display: flex;
+    /* justify-content: start; */
+    /* flex-wrap: wrap; */
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-size: cover;
+}
+.about_image img{
+    width: 25%;
+}
+.about_p{
+    padding-bottom: 60px;
+}
+.about_p2{
+    line-height: 40px;
+}
+/* course */
+.course_card{
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    width: 100%;
+    /* text-align: center; */
+    margin: auto;
+}
+.course_card2{
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+.course_card3{
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    width: 100%;
+    /* text-align: center; */
+    margin: auto;
+}
+.course_text{
+    /* padding-left: 50px; */
+    width: 50%;
+}
+.course_text2{
+    width: 50%;
+    text-align: center;
+}
+.course_h{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.course_image img{
+    /* height: 500px; */
+    width: 100%;
+}
+.course_image{
+    margin: auto;
+    /* height: 500px; */
+    width: 50%;
+}
+.course_p{
+    margin-top: 40px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+.course_p2{
+    margin-top: 40px;
+    line-height: 30px;
+    margin-right: 50px;
+}
+.course_p1{
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+/* news */
+.news{
+    padding-top: 60px;
+}
+.newscard_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.news_card{
+    background-color: #fafafa;
+    /* align-items: center; */
+    /* display: flex; */
+    width: 25%;
+    padding:30px 15px 30px 15px;
+}
+.news_card:hover{
+    transform: scale(1.2,1.2);
+}
+.news_date:hover{
+    font-size: 30px;
+    color:red;
+}
+.news_date{
+    justify-content: left;
+}
+.news_p:hover{
+    font-size: 20px;
+    color: blue;
+}
+.news_image:hover{
+    transform: scale(1.2,1.2);
+}
+/* .news_image img{
+    width: 100%;
+} */
+.news_image{
+    width: 50%;
+}
+.news_button{
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    align-items: center;
+    text-align: center;
+    /* なんで真ん中に行ってくれないの？ */
+}
+.news_button a{
+    color: white;
+}
+.news_button a:hover{
+    color: pink;
+}
+.news_button:hover{
+    font-size: 60px;
+}
+/* access */
+.access{
+    background-color: #fafafa;
+    width: auto;
+    text-align: center;
+    /*なんで margin: 0 auto;では真ん中に行ってくれないの？ */
+    margin: auto;
+    padding-bottom: 60px;
+}
+.access_com{
+    margin: 30px 0 60px;
+    width: 100%;
+}
+.googlemap{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 60px;
+}
+.access_p{
+    line-height: 30px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+/* 文字の揃え方がわからない… */
+.access_th{
+    justify-content: left;
+    height: 50px;
+}
+/* contact */
+.contact{
+    padding-top: 30px;
+}
+.contact_p{
+    margin: 60px;
+}
+.p1{
+    margin: 30px;
+}
+.contact_form{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-top: #bfbfbf;
+}
+.contact_name{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    
+    
+}
+.contact_body{
+    justify-content: center;
+    width: 400px;
+    border-top: solid#bfbfbf;
+    border-bottom: solid#bfbfbf;
+}
+.contact_send{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    align-items: center;
+    /* margin: 30px 0 140px; */
+}
+.contact_checkbox{
+    padding: 12px;
+}
+/* footer */
+.footer{
+    background-color: #707070;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+}
